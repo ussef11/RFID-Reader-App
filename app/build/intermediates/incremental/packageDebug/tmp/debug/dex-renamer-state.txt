@@ -1,0 +1,4 @@
+#Thu Nov 30 12:16:08 WEST 2023
+base.0=/home/ussef/Desktop/APPRFID/Module_Android_Demo_Test/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

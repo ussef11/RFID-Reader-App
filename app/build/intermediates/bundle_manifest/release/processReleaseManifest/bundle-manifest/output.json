@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":3,"versionName":"4.3.3.0","enabled":true,"outputFile":"RFID_2022_06_06.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.example.module_android_demo","split":"","minSdkVersion":"14"}}]

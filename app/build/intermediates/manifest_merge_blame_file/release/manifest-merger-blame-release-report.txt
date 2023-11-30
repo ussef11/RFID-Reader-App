@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.module_android_demo"
+4    android:focusable="true"
+5    android:focusableInTouchMode="true"
+6    android:versionCode="3"
+7    android:versionName="4.3.3.0"
+8    android:windowSoftInputMode="stateHidden" > <!-- android:sharedUserId="android.uid.system" -->
+9    <uses-sdk
+9-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:12:1-13:41
+10        android:minSdkVersion="14"
+10-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:12:1-13:41
+11        android:targetSdkVersion="30" />
+11-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:13:9-38
+12
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:14:5-78
+13-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:14:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:15:5-66
+14-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:15:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:16:2-64
+15-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:16:19-62
+16    <!-- <uses-permission android:name="android.permission.DEVICE_POWER" /> -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:18:5-79
+17-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:18:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:19:5-80
+18-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:19:22-78
+19    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+19-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:20:5-21:47
+19-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:20:22-70
+20    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+20-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:22:5-88
+20-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:22:22-86
+21
+22    <!-- android:screenOrientation="portrait" -->
+23    <application
+23-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:25:5-108:19
+24        android:name="com.example.module_android_demo.MyApplication"
+24-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:30:10-70
+25        android:allowBackup="true"
+25-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:26:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] C:\Users\233\.gradle\caches\transforms-2\files-2.1\ccda7c91241756df5412dcd8cef3ccf7\core-1.5.0\AndroidManifest.xml:24:18-86
+27        android:icon="@drawable/ic_launcher_th"
+27-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:27:9-48
+28        android:label="@string/app_name"
+28-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:28:9-41
+29        android:theme="@style/AppTheme" >
+29-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:29:9-40
+30        <activity
+30-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:31:9-41:20
+31            android:name="com.example.module_android_demo.MainActivity"
+31-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:32:13-72
+32            android:label="@string/app_name"
+32-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:35:13-45
+33            android:windowSoftInputMode="stateHidden" >
+33-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:34:14-55
+34            <intent-filter>
+34-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:36:13-40:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:37:17-69
+35-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:37:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:39:17-77
+37-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:39:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:42:10-47:20
+41            android:name="com.example.module_android_demo.Sub4TabActivity"
+41-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:43:13-75
+42            android:windowSoftInputMode="stateHidden" >
+42-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:45:15-56
+43        </activity>
+44        <activity
+44-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:48:10-53:20
+45            android:name="com.example.module_android_demo.Sub1TabActivity"
+45-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:49:13-75
+46            android:windowSoftInputMode="stateHidden" >
+46-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:51:15-56
+47        </activity>
+48        <activity
+48-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:54:11-59:20
+49            android:name="com.example.module_android_demo.Sub3TabActivity"
+49-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:55:13-75
+50            android:windowSoftInputMode="stateHidden" >
+50-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:57:15-56
+51        </activity>
+52        <activity
+52-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:60:10-65:20
+53            android:name="com.example.module_android_demo.SubSystemActivity"
+53-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:61:13-77
+54            android:windowSoftInputMode="stateHidden" >
+54-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:63:15-56
+55        </activity>
+56        <activity
+56-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:66:12-71:20
+57            android:name="com.example.module_android_demo.SubPathActivity"
+57-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:67:13-75
+58            android:windowSoftInputMode="stateHidden" >
+58-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:69:15-56
+59        </activity>
+60        <activity
+60-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:72:9-77:20
+61            android:name="com.example.module_android_demo.SubQTActivity"
+61-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:73:13-73
+62            android:windowSoftInputMode="stateHidden" >
+62-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:75:15-56
+63        </activity>
+64        <activity
+64-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:78:10-83:20
+65            android:name="com.example.module_android_demo.SubCarryWaveActivity"
+65-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:79:13-80
+66            android:windowSoftInputMode="stateHidden" >
+66-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:81:15-56
+67        </activity>
+68        <activity
+68-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:84:9-89:20
+69            android:name="com.example.module_android_demo.SubDebugActivity"
+69-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:85:13-76
+70            android:windowSoftInputMode="stateHidden" >
+70-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:87:15-56
+71        </activity>
+72        <activity
+72-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:90:10-95:20
+73            android:name="com.example.module_android_demo.SubRegopActivity"
+73-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:91:13-76
+74            android:windowSoftInputMode="stateHidden" >
+74-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:93:15-56
+75        </activity>
+76        <activity
+76-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:96:10-101:20
+77            android:name="com.example.module_android_demo.SubTagTempLedActivity"
+77-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:97:13-81
+78            android:windowSoftInputMode="stateHidden" >
+78-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:99:15-56
+79        </activity>
+80        <activity
+80-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:102:10-107:20
+81            android:name="com.example.module_android_demo.UpdateActivity"
+81-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:103:14-75
+82            android:screenOrientation="portrait"
+82-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:104:15-51
+83            android:windowSoftInputMode="stateHidden" >
+83-->E:\miniapp\ddd\Module_Android_Demo\app\src\main\AndroidManifest.xml:105:15-56
+84        </activity>
+85    </application>
+86
+87</manifest>

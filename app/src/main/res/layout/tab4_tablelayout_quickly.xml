@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"></LinearLayout>
+
+          <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#70f3ff" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab4_qk_textView_tempu"
+            android:textColor="#ed5736"
+            android:background="#70f3ff"
+            android:textSize="18sp" />
+    </FrameLayout>
+         
+    <Spinner
+        android:id="@+id/spinner_per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab4_qk_textView_returnitem"
+            android:textColor="#ed5736"
+            android:background="#70f3ff"
+            android:textSize="18sp" />
+     
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/checkBox_readcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab4_qk_TextView_count" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_rssi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RSSI" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_ant" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_frequency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab4_fre_TextView_tb4fre" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/checkBox_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab4_qk_TextView_time" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_rfu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RFU" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab4_qk_TextView_pro" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_tagdatalen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Data" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_enable"
+            android:textColor="#ed5736"
+            android:background="#70f3ff"
+            android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_nostop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Constr_invenmode" />
+
+        <Spinner
+            android:id="@+id/spinner_qmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/TextView_controltemp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#70f3ff"
+    android:text="Smart Mode Parmaters"
+    android:textColor="#ed5736"
+    android:textSize="18sp" />
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_smartparset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:text="@string/str_paramset" />
+
+        </LinearLayout>
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+              <EditText
+                  android:id="@+id/editText_smm1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="15" >
+
+                  <requestFocus />
+              </EditText>
+
+              <TextView
+                  android:id="@+id/textView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="sec/秒"
+                  android:textSize="10sp" />
+
+              <EditText
+                  android:id="@+id/editText_smm2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="5" />
+
+              <TextView
+                  android:id="@+id/textView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="P/张"
+                  android:textSize="10sp" />
+
+              <EditText
+                  android:id="@+id/editText_smm3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="300" />
+
+              <TextView
+                  android:id="@+id/textView_m22"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="ms"
+                  android:textSize="10sp" />
+
+              <EditText
+                  android:id="@+id/editText_smm4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="200" />
+
+              <TextView
+                  android:id="@+id/textView_m23"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="ms"
+                  android:textSize="10sp" />
+
+              <EditText
+                  android:id="@+id/editText_smm5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="1" />
+
+              <TextView
+                  android:id="@+id/textView_m32"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="P/张"
+                  android:textSize="10sp" />
+
+</LinearLayout>
+           <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+               <EditText
+                   android:id="@+id/editText_s2m_cyc1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="500" />
+
+               <TextView
+                   android:id="@+id/textView_s2m_cyc1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ms"
+                   android:textSize="10sp" />
+
+               <EditText
+                   android:id="@+id/editText_s2m_tagc1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="50" />
+
+               <TextView
+                   android:id="@+id/textView_s2m_tagc1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="P/张"
+                   android:textSize="10sp" />
+
+               <EditText
+                   android:id="@+id/editText_s2m_cyc2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="100" />
+
+               <TextView
+                   android:id="@+id/textView_s2m_cyc2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ms"
+                   android:textSize="10sp" />
+
+               <EditText
+                   android:id="@+id/editText_s2m_tagc2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="1" />
+
+               <TextView
+                   android:id="@+id/textView_s2m_tagc2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="P/张"
+                   android:textSize="10sp" />
+
+               <EditText
+                   android:id="@+id/editText_s2m_rfmode"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="101" />
+
+               <TextView
+                   android:id="@+id/textView_s2m_rfmode"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" mode"
+                   android:textSize="10sp" />
+
+           </LinearLayout>
+
+   </LinearLayout>
+</ScrollView>
